@@ -3,8 +3,6 @@
 const button1 = document.querySelector("#bg");
 
 button1.onclick = function () {
-	//console.log(event.target);
-	//event.target.style.background = "green";
 	document.body.style.background = "green";
 };
 
@@ -14,9 +12,6 @@ const button2 = document.querySelector(".toggler");
 const togglee = document.querySelector(".togglee");
 
 button2.onclick = function () {
-	//console.log(event.target);
-	//event.target.classList.add("extra");
-	//event.target.classList.toggle("extra");
 	togglee.classList.toggle("extra");
 };
 
@@ -66,6 +61,3 @@ function handleScroll() {
 }
 
 window.onscroll = handleScroll;
-//window.onscroll = function () {
-//	console.log("scrolling");
-//};
